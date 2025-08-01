@@ -6,7 +6,7 @@ layout: single
 author_profile: true
 ---
 
-I am a student pursuing a B.Sc. in **Computer Games Technology** at **FH Wedel**.
+I am a student pursuing a *B.Sc.* in *Computer Games Technology* at *FH Wedel*.
 
 My Projects:
 - Project 1
