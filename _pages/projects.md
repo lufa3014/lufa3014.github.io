@@ -19,7 +19,7 @@ title: "Projects"
     Conceptualization and development of a 3D single-player game in Unity with a focus on game balance, visual clarity, and technical extensibility. Responsible for core gameplay systems, deckbuilding logic, CI/CD pipeline, and project-specific tools.
   </p>
   <div id="grid-gallery" style="text-align:center;">
-    <img id="grid-image" src="/assets/images/GRID-Battle.png" alt="GRID Battle" style="max-width: 100%; border-radius: 12px;">
+    <img id="grid-image" src="/assets/images/GRID-Battle.png" alt="GRID Battle" style="max-width: 100%; border-radius: 8px;">
   </div>
 </div>
 
