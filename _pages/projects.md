@@ -20,9 +20,6 @@ title: "Projects"
   </p>
   <div id="grid-gallery" style="text-align:center;">
     <img id="grid-image" src="/assets/images/GRID-Battle.png" alt="GRID Battle" style="max-width: 100%; border-radius: 12px;">
-    <br>
-    <button onclick="showPrev()" style="margin:10px;">&#8592; Prev</button>
-    <button onclick="showNext()" style="margin:10px;">Next &#8594;</button>
   </div>
 </div>
 
@@ -36,12 +33,8 @@ title: "Projects"
   function showImage(idx) {
     document.getElementById('grid-image').src = images[idx];
   }
-  function showPrev() {
-    current = (current - 1 + images.length) % images.length;
-    showImage(current);
-  }
-  function showNext() {
+  setInterval(() => {
     current = (current + 1) % images.length;
     showImage(current);
-  }
+  }, 2500);
 </script>
