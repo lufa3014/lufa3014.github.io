@@ -36,5 +36,23 @@ title: "Projects"
   setInterval(() => {
     current = (current + 1) % images.length;
     showImage(current);
-  }, 2500);
+  }, 4500);
 </script>
+
+<div style="margin-top:40px;">
+  <h2>
+    Level Design – Chamber & Cave
+  </h2>
+  <p>
+    <strong>Module:</strong> Level Design<br>
+    <strong>Role:</strong> Level Designer<br>
+    <strong>Period:</strong> 2024
+  </p>
+  <p>
+    Creation and visualization of game levels with a focus on spatial composition, player guidance, and atmosphere. Animated GIFs show two different level prototypes: Chamber and Cave.
+  </p>
+  <div style="display: flex; gap: 32px; justify-content: center;">
+    <img src="/assets/images/LEVEL_DESIGN-CHAMBER.gif" alt="Level Design Chamber" style="max-width: 350px; border-radius: 12px;">
+    <img src="/assets/images/LEVEL-DESIGN-CAVE.gif" alt="Level Design Cave" style="max-width: 350px; border-radius: 12px;">
+  </div>
+</div>
