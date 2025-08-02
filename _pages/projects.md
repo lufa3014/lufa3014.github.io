@@ -51,8 +51,10 @@ title: "Projects"
   <p>
     Creation and visualization of game levels with a focus on spatial composition, player guidance, and atmosphere. Animated GIFs show two different level prototypes: Chamber and Cave.
   </p>
-  <div style="display: flex; gap: 32px; justify-content: center;">
-    <img src="/assets/images/LEVEL_DESIGN-CHAMBER.gif" alt="Level Design Chamber" style="max-width: 350px; border-radius: 12px;">
-    <img src="/assets/images/LEVEL-DESIGN-CAVE.gif" alt="Level Design Cave" style="max-width: 350px; border-radius: 12px;">
+  <div id="grid-gallery" style="text-align:center;">
+    <img src="/assets/images/LEVEL_DESIGN-CHAMBER.gif" alt="Level Design Chamber" style="max-width: 100%; border-radius: 4px;">
+  </div>
+  <div id="grid-gallery" style="text-align:center;">
+    <img src="/assets/images/LEVEL-DESIGN-CAVE.gif" alt="Level Design Cave" style="max-width: 100%; border-radius: 4px;">
   </div>
 </div>
