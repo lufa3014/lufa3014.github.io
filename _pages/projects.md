@@ -3,6 +3,26 @@ permalink: /projects/
 title: "Projects"
 ---
 
+<div style="margin-top:40px;">
+  <h2>
+    VR Cooking Game – Physics-Based VR Experience in Unity
+  </h2>
+  <p>
+    <strong>Module:</strong> VR Project<br>
+    <strong>Role:</strong> Technical Lead (4-person team)<br>
+    <strong>Period:</strong> 01/2025 – 06/2025
+  </p>
+  <p>
+    Physics-based VR game in Unity featuring interaction systems for ingredients, cooking processes, and customers. Developed the game loop, timer system, event system, VR-specific systems, and audio integration.
+  </p>
+  <div style="text-align:center;">
+    <video controls style="max-width: 100%; border-radius: 12px;">
+      <source src="/assets/videos/VR-Trailer.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+  </div>
+</div>
+
 <div>
   <h2>
     G.R.I.D. – Strategy/Tactics Game in Unity
@@ -76,33 +96,13 @@ title: "Projects"
 
 <div style="margin-top:40px;">
   <h2>
-    VR Cooking Game – Physics-Based VR Experience in Unity
-  </h2>
-  <p>
-    <strong>Module:</strong> VR Project<br>
-    <strong>Role:</strong> Technical Lead (4-person team)<br>
-    <strong>Period:</strong> 01/2025 – 06/2025
-  </p>
-  <p>
-    Physics-based VR game in Unity featuring interaction systems for ingredients, cooking processes, and customers. Developed the game loop, timer system, event system, VR-specific systems, and audio integration.
-  </p>
-  <div style="text-align:center;">
-    <video controls style="max-width: 100%; border-radius: 12px;">
-      <source src="/assets/videos/VR-Trailer.mp4" type="video/mp4">
-      Your browser does not support the video tag.
-    </video>
-  </div>
-</div>
-
-<div style="margin-top:40px;">
-  <h2>
     EntityEvents – Lightweight Event System for Unity ECS
     <a href="https://github.com/lufa3014/EntityEvents.git" style="margin-left: 10px;">
       <img src="https://img.shields.io/badge/GitHub-View%20Repository-blue?logo=github" alt="GitHub Repo" style="vertical-align: middle;">
     </a>
   </h2>
   <p>
-    <strong>Type:</strong> Personal Project<br>
+    <strong>Type:</strong> Personal Project - Unity Package<br>
     <strong>Role:</strong> Developer<br>
     <strong>Period:</strong> 2025
   </p>
