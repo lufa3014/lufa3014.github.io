@@ -42,6 +42,9 @@ title: "Projects"
 <div style="margin-top:40px;">
   <h2>
     Stealth/Puzzle Game in Unity
+    <a href="https://github.com/lufa3014/Level-Design.git" style="margin-left: 10px;">
+      <img src="https://img.shields.io/badge/GitHub-View%20Repository-blue?logo=github" alt="GitHub Repo" style="vertical-align: middle;">
+    </a>
   </h2>
   <p>
     <strong>Module:</strong> Level Design<br>
@@ -70,3 +73,23 @@ title: "Projects"
     showLevelImage(levelCurrent);
   }, 4500);
 </script>
+
+<div style="margin-top:40px;">
+  <h2>
+    VR Trailer
+  </h2>
+  <p>
+    <strong>Module:</strong> VR Development<br>
+    <strong>Role:</strong> Developer<br>
+    <strong>Period:</strong> 2025
+  </p>
+  <p>
+    Trailer showcasing a VR project, highlighting immersive interaction and visual presentation.
+  </p>
+  <div style="text-align:center;">
+    <video controls style="max-width: 100%; border-radius: 12px;">
+      <source src="/assets/videos/VR-Trailer.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+  </div>
+</div>
