@@ -112,28 +112,26 @@ title: "Projects"
   <p><strong>Example usage:</strong></p>
   <details>
     <summary>Show code example</summary>
-    <div class="language-csharp highlighter-rouge">
-      <pre class="highlight"><code>
-        [Event(WorldSystemFilterFlags.Default)]
-        public struct DamageEvent : IComponentData
-        {
-            public int Amount;
-        }
+    {% highlight csharp %}
+    [Event(WorldSystemFilterFlags.Default)]
+    public struct DamageEvent : IComponentData
+    {
+        public int Amount;
+    }
 
-        public struct DamageEventBuffer : IBufferElementData, IEventConverter&lt;DamageEvent&gt;
-        {
-            public int Amount;
-            public DamageEvent ToEvent() =&gt; new DamageEvent { Amount = Amount };
-        }
+    public struct DamageEventBuffer : IBufferElementData, IEventConverter<DamageEvent>
+    {
+        public int Amount;
+        public DamageEvent ToEvent() => new DamageEvent { Amount = Amount };
+    }
 
-        public partial struct DamageEventManager : ISystem
+    public partial struct DamageEventManager : ISystem
+    {
+        public void OnUpdate(ref SystemState state)
         {
-            public void OnUpdate(ref SystemState state)
-            {
-                new EventManager&lt;DamageEvent, DamageEventBuffer&gt;().OnUpdate(ref state);
-            }
+            new EventManager<DamageEvent, DamageEventBuffer>().OnUpdate(ref state);
         }
-      </code></pre>
-    </div>
+    }
+    {% endhighlight %}
   </details>
 </div>
