@@ -109,34 +109,34 @@ title: "Projects"
   <p>
     A lightweight, modular event system for Unity ECS, using Roslyn source generators for fast and type-safe event handling. Features include custom event types, event buffers, and automatic conversion between buffer elements and events. Designed for scalable, decoupled gameplay logic in DOTS projects.
   </p>
-  <p>
-    <strong>Example usage:</strong>
-  </p>
-  <pre>
-  <code class="language-csharp">
-// Define an event
-[Event(WorldSystemFilterFlags.Default)]
-public struct DamageEvent : IComponentData
-{
-    public int Amount;
-}
+  <p><strong>Example usage:</strong></p>
 
-// Convert buffer element to event
-public struct DamageEventBuffer : IBufferElementData, IEventConverter<DamageEvent>
-{
-    public int Amount;
-    public DamageEvent ToEvent() => new DamageEvent { Amount = Amount };
-}
-
-// Usage in system
-public partial struct DamageEventManager : ISystem
-{
-    public void OnUpdate(ref SystemState state)
+  <details>
+    <summary>Show code example</summary>
+    
+    ````csharp
+    // Define an event
+    [Event(WorldSystemFilterFlags.Default)]
+    public struct DamageEvent : IComponentData
     {
-        // EventManager handles conversion and dispatch
-        new EventManager<DamageEvent, DamageEventBuffer>().OnUpdate(ref state);
+        public int Amount;
     }
-}
-  </code>
-  </pre>
+
+    // Convert buffer element to event
+    public struct DamageEventBuffer : IBufferElementData, IEventConverter<DamageEvent>
+    {
+        public int Amount;
+        public DamageEvent ToEvent() => new DamageEvent { Amount = Amount };
+    }
+
+    // Usage in system
+    public partial struct DamageEventManager : ISystem
+    {
+        public void OnUpdate(ref SystemState state)
+        {
+            new EventManager<DamageEvent, DamageEventBuffer>().OnUpdate(ref state);
+        }
+    }
+    ````
+</details>
 </div>
