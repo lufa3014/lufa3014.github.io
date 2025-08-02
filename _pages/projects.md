@@ -71,7 +71,7 @@ title: "Projects"
   setInterval(() => {
     levelCurrent = (levelCurrent + 1) % levelImages.length;
     showLevelImage(levelCurrent);
-  }, 4500);
+  }, 14500);
 </script>
 
 <div style="margin-top:40px;">
