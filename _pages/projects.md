@@ -68,7 +68,7 @@ title: "Projects"
   </h2>
   <p>
     <strong>Module:</strong> Level Design<br>
-    <strong>Role:</strong> Level Designer (2-person team)<br>
+    <strong>Role:</strong> Game Designer &amp; Developer (2-person team)<br>
     <strong>Period:</strong> 04/2023 – 06/2023
   </p>
   <p>
@@ -134,4 +134,24 @@ title: "Projects"
     }
     {% endhighlight %}
   </details>
+</div>
+
+<div style="margin-top:40px;">
+  <h2>
+    Seminar Paper – Procedural World Generation in Games
+  </h2>
+  <p>
+    <strong>Module:</strong> Seminar: Game Technology<br>
+    <strong>Role:</strong> Author<br>
+    <strong>Period:</strong> 04/2025<br>
+  </p>
+  <p>
+    One of my favorite topics: An in-depth analysis of classic techniques for procedural world generation in video games. Covers Perlin Noise, fractal Brownian motion, domain warping, Marching Cubes, biome-based generation, and the interplay between technical algorithms and game design. The paper bridges algorithmic foundations with real-world applications in game development.
+  </p>
+  <div style="text-align:center;">
+    <iframe src="https://drive.google.com/file/d/1wveEzSdD5mrNAkR98uSdOKeBh5_dK4ee/preview"
+            width="640" height="480" allow="autoplay"
+            style="border-radius: 8px; border: none;">
+    </iframe>
+  </div>
 </div>
