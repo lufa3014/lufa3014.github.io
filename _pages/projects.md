@@ -41,20 +41,32 @@ title: "Projects"
 
 <div style="margin-top:40px;">
   <h2>
-    Level Design – Chamber & Cave
+    Stealth/Puzzle Game in Unity
   </h2>
   <p>
     <strong>Module:</strong> Level Design<br>
-    <strong>Role:</strong> Level Designer<br>
-    <strong>Period:</strong> 2024
+    <strong>Role:</strong> Level Designer (2-person team)<br>
+    <strong>Period:</strong> 04/2023 – 06/2023
   </p>
   <p>
-    Creation and visualization of game levels with a focus on spatial composition, player guidance, and atmosphere. Animated GIFs show two different level prototypes: Chamber and Cave.
+    Development of a 3D puzzle/stealth game in Unity with a focus on level design. Responsible for enemy AI, animation systems, interactive objects, chat window, and shader effects.
   </p>
-  <div id="grid-gallery" style="text-align:center;">
-    <img src="/assets/images/LEVEL_DESIGN-CHAMBER.gif" alt="Level Design Chamber" style="max-width: 100%; border-radius: 4px;">
-  </div>
-  <div id="grid-gallery" style="text-align:center;">
-    <img src="/assets/images/LEVEL-DESIGN-CAVE.gif" alt="Level Design Cave" style="max-width: 100%; border-radius: 4px;">
+  <div id="level-gallery" style="text-align:center;">
+    <img id="level-image" src="/assets/images/LEVEL_DESIGN-CHAMBER.gif" alt="Level Design Chamber" style="max-width: 100%; border-radius: 12px;">
   </div>
 </div>
+
+<script>
+  const levelImages = [
+    "/assets/images/LEVEL_DESIGN-CHAMBER.gif",
+    "/assets/images/LEVEL-DESIGN-CAVE.gif"
+  ];
+  let levelCurrent = 0;
+  function showLevelImage(idx) {
+    document.getElementById('level-image').src = levelImages[idx];
+  }
+  setInterval(() => {
+    levelCurrent = (levelCurrent + 1) % levelImages.length;
+    showLevelImage(levelCurrent);
+  }, 4500);
+</script>
