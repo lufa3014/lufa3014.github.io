@@ -50,7 +50,7 @@ permalink: /
     </a>
   </h2>
   <p>
-    <strong>Module:</strong> Mediengestaltung<br>
+    <strong>Module:</strong> Media Design<br>
     <strong>Role:</strong> Designer<br>
     <strong>Period:</strong> Summer Semester 2023
   </p>
