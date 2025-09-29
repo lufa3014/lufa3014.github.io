@@ -19,7 +19,7 @@ permalink: /
     <strong>Period:</strong> 04/2025 – 08/2025
   </p>
   <p>
-    Development of a full-stack web application for creating and managing blog posts. Implemented the backend using Node.js, Express, and TypeScript, with a Pug template engine for the frontend. Designed a responsive UI with HTML and CSS. Integrated user authentication, session management, and REST APIs. Secured the application with unit and integration tests using Vitest and Supertest.
+    Development of a full-stack web application for creating and managing blog posts. Implemented the backend using Node.js, Express and TypeScript with a Pug template engine for the frontend. Designed a responsive UI with HTML and CSS. Integrated user authentication, session management, and REST APIs. Secured the application with unit and integration tests using Vitest and Supertest.
   </p>
   <div id="grid-gallery" style="text-align:center;">
     <img id="grid-image" src="/assets/images/web_index.png" alt="GRID Battle" style="max-width: 100%; border-radius: 4px;">
@@ -41,6 +41,29 @@ permalink: /
     showImage(current);
   }, 4500);
 </script>
+
+<div style="margin-top:40px;">
+  <h2>
+    Mediengestaltung SS23 – XD Prototype
+    <a href="https://xd.adobe.com/view/69e17c0f-9f20-491e-90c4-212a43c9a41b-3cb2/" style="margin-left: 10px;">
+      <img src="https://img.shields.io/badge/Adobe%20XD-View%20Prototype-blue?logo=adobe" alt="Adobe XD Prototype" style="vertical-align: middle;">
+    </a>
+  </h2>
+  <p>
+    <strong>Module:</strong> Mediengestaltung<br>
+    <strong>Role:</strong> Designer<br>
+    <strong>Period:</strong> Summer Semester 2023
+  </p>
+  <p>
+    Creation of an interactive prototype using Adobe XD. The prototype demonstrates a clickable walkthrough of the application concept.
+  </p>
+  <div style="text-align:center;">
+    <iframe src="/assets/documents/App_Design.pdf" width="100%" height="600px" style="border: 1px solid #ccc; border-radius: 12px;">
+      Your browser does not support embedded PDFs. 
+      <a href="/assets/App_Design.pdf">Download the PDF</a>.
+    </iframe>
+  </div>
+</div>
 
 <div>
   <h2>
