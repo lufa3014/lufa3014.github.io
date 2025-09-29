@@ -8,6 +8,42 @@ permalink: /
 ---
 <div>
   <h2>
+    Blog Website – Full-Stack Web Application
+    <a href="https://github.com/lufa3014/Blog-Website.git" style="margin-left: 10px;">
+      <img src="https://img.shields.io/badge/GitHub-View%20Repository-blue?logo=github" alt="GitHub Repo" style="vertical-align: middle;">
+    </a>
+  </h2>
+  <p>
+    <strong>Module:</strong> Web Applications<br>
+    <strong>Role:</strong> Full-Stack Developer (2-person team)<br>
+    <strong>Period:</strong> 04/2025 – 08/2025
+  </p>
+  <p>
+    Development of a full-stack web application for creating and managing blog posts. Implemented the backend using Node.js, Express, and TypeScript, with a Pug template engine for the frontend. Designed a responsive UI with HTML and CSS. Integrated user authentication, session management, and REST APIs. Secured the application with unit and integration tests using Vitest and Supertest.
+  </p>
+  <div id="grid-gallery" style="text-align:center;">
+    <img id="grid-image" src="/assets/images/web_index.png" alt="GRID Battle" style="max-width: 100%; border-radius: 4px;">
+  </div>
+</div>
+
+<script>
+  const images = [
+    "/assets/images/web_index.png",
+    "/assets/images/web_profile.png",
+    "/assets/images/web_comments.png"
+  ];
+  let current = 0;
+  function showImage(idx) {
+    document.getElementById('grid-image').src = images[idx];
+  }
+  setInterval(() => {
+    current = (current + 1) % images.length;
+    showImage(current);
+  }, 4500);
+</script>
+
+<div>
+  <h2>
     G.R.I.D. – Strategy/Tactics Game in Unity
     <a href="https://github.com/lufa3014/Grid-Prototyp.git" style="margin-left: 10px;">
       <img src="https://img.shields.io/badge/GitHub-View%20Repository-blue?logo=github" alt="GitHub Repo" style="vertical-align: middle;">
