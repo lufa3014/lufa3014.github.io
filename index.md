@@ -44,7 +44,7 @@ permalink: /
 
 <div style="margin-top:40px;">
   <h2>
-    Mediengestaltung SS23 – XD Prototype
+    Fake No More – XD Prototype
     <a href="https://xd.adobe.com/view/69e17c0f-9f20-491e-90c4-212a43c9a41b-3cb2/" style="margin-left: 10px;">
       <img src="https://img.shields.io/badge/Adobe%20XD-View%20Prototype-blue?logo=adobe" alt="Adobe XD Prototype" style="vertical-align: middle;">
     </a>
