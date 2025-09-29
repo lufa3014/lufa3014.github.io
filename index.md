@@ -58,7 +58,7 @@ permalink: /
     Creation of an interactive prototype using Adobe XD. The prototype demonstrates a clickable walkthrough of the application concept.
   </p>
   <div style="text-align:center;">
-    <iframe src="/assets/documents/App_Design.pdf" width="100%" height="600px" style="border: 1px solid #ccc; border-radius: 12px;">
+    <iframe src="/assets/App_Design.pdf" width="100%" height="600px" style="border: 1px solid #ccc; border-radius: 12px;">
       Your browser does not support embedded PDFs. 
       <a href="/assets/App_Design.pdf">Download the PDF</a>.
     </iframe>
