@@ -100,9 +100,6 @@ permalink: /
 <div style="margin-top:40px;">
   <h2>
     Rendering Engine in OpenGL & C
-    <a href="https://github.com/lufa3014/Deferred-Rendering-Engine.git" style="margin-left: 10px;">
-      <img src="https://img.shields.io/badge/GitHub-View%20Repository-blue?logo=github" alt="GitHub Repo" style="vertical-align: middle;">
-    </a>
   </h2>
   <p>
     <strong>Module:</strong> Visual Effects & Shader<br>
@@ -137,9 +134,6 @@ permalink: /
 <div style="margin-top:40px;">
   <h2>
     Grass Renderer in OpenGL & C
-    <a href="https://github.com/lufa3014/Grass-Renderer.git" style="margin-left: 10px;">
-      <img src="https://img.shields.io/badge/GitHub-View%20Repository-blue?logo=github" alt="GitHub Repo" style="vertical-align: middle;">
-    </a>
   </h2>
   <p>
     <strong>Module:</strong> Geometric Modeling & Computer Animation<br>
